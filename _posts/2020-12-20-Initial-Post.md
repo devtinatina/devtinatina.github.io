@@ -1,5 +1,5 @@
 ---
-title: 블로그 만들어 보기
+title: 블로그 시작
 tags: first
 ---
 

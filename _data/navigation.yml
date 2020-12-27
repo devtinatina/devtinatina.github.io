@@ -2,8 +2,8 @@
 main:
     - title: 'About'
       url: https://devtinatina.github.io/about
-    # - title: "About"
-    #   url: https://mmistakes.github.io/minimal-mistakes/about/
+    - title: 'Categoies'
+      url: /categories/
     # - title: "Sample Posts"
     #   url: /year-archive/
     # - title: "Sample Collections"

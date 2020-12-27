@@ -11,8 +11,8 @@ main:
     # - title: "Sitemap"
     #   url: /sitemap/
 
-docs:
+sidebar:
     - title: 일상생활 포스팅
     children:
     - title: '일상'
-    - url: /categories/#일상
+    - url: /categories/일상

@@ -281,10 +281,15 @@ defaults:
           share: true
           related: false
     
-    # _docs
-    - scope:
-        path: ""
-        type: docs
+      # _docs
+  - scope:
+      path: ""
+      type: docs
     values:
-        sidebar:
-            nav: 'docs'
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "docs"

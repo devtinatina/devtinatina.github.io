@@ -1,17 +1,24 @@
-# main links
-main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+---
+title: "Layout: Sidebar with Navigation List"
+excerpt: "A post with a sidebar navigation list."
+author_profile: false
+sidebar:
+  title: "Sample Title"
+  nav: sidebar-sample
+---
 
-  sidebar-sample:
+This post has a custom navigation list set in the post's YAML Front Matter.
+
+```yaml
+sidebar:
+  title: "Sample Title"
+  nav: sidebar-sample
+```
+
+Along with navigation elements set in `_data/navigation.yml`.
+
+```yaml
+sidebar-sample:
   - title: "Parent Page A"
     children:
       - title: "Child Page A1"
@@ -52,3 +59,4 @@ main:
         url: /
       - title: "Child Page D2"
         url: /
+```

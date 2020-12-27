@@ -1,7 +1,7 @@
 # main links
 main:
     - title: 'About'
-      url: https://devtinatina.github.io/about
+      url: /about/
     - title: 'Categoies'
       url: /categories/
     - title: 'Tags'
@@ -10,3 +10,9 @@ main:
     #   url: /collection-archive/
     # - title: "Sitemap"
     #   url: /sitemap/
+
+docs:
+    - title: 일상생활 포스팅
+    children:
+    - title: '일상'
+    - url: /categories/#일상

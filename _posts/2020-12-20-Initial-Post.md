@@ -1,6 +1,7 @@
 ---
+siderbar:
 title: 블로그 시작
-
+nav: sidebar-sample
 categories:
     - 일상
 tags:

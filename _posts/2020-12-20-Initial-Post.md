@@ -1,6 +1,12 @@
 ---
 title: 블로그 시작
-tags: first
+
+categories:
+    - 일상
+tags:
+    - 일상
+
+last_modified_at:
 ---
 
 

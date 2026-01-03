@@ -3,6 +3,4 @@ layout: home
 title: Home
 ---
 
-Welcome to my blog! Here I share my thoughts, experiences, and knowledge.
-
-Check out my latest posts below.
+안녕하세요! 일상과 생각을 기록하는 공간입니다.

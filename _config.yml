@@ -1,14 +1,20 @@
 # Site settings
-title: My Blog
+title: 나의 일상 블로그
 description: A blog built with Jekyll and GitHub Pages
 author: devtinatina
-email: your-email@example.com
+email: leekh7624@korea.ac.kr
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+# Header navigation
+header_pages:
+  - categories/daily.md
+  - categories/graduate.md
+  - categories/travel.md
 
 # GitHub Pages specific settings
 url: "https://devtinatina.github.io"

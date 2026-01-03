@@ -1,22 +1,22 @@
 ---
 layout: post
-title: "Welcome to My Blog!"
+title: "블로그를 시작하며"
 date: 2026-01-04 00:00:00 -0000
-categories: introduction
+categories: daily
 ---
 
-Welcome to my new blog built with Jekyll and hosted on GitHub Pages!
+Jekyll과 GitHub Pages로 만든 새로운 블로그에 오신 것을 환영합니다!
 
-## Getting Started
+## 블로그 시작
 
-This is my first post. I'm excited to start sharing content here.
+드디어 나만의 블로그를 시작하게 되었습니다. 일상, 대학원 생활, 여행 이야기를 나누고 싶어요.
 
-## What to Expect
+## 앞으로의 계획
 
-I'll be writing about:
-- Technology
-- Programming
-- Personal projects
-- And much more!
+이 블로그에서 다룰 주제들:
+- 일상 생활 이야기
+- 대학원 연구 및 공부
+- 여행 경험과 후기
+- 그 외 다양한 생각들
 
-Stay tuned for more posts!
+많은 관심 부탁드립니다!

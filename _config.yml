@@ -1,12 +1,12 @@
 # Site settings
 title: 나의 일상 블로그
-description: 일상, 대학원, 여행 이야기를 기록하는 공간
+description: 일상, 대학원, 기타 이야기를 기록하는 공간
 author: devtinatina
 email: leekh7624@korea.ac.kr
 
 # Profile settings
-bio: "2026년 30살이 되는 해, 의미있는 한 해를 만들어가는 중입니다."
-profile_image: # /assets/images/profile.jpg (이미지 추가 후 주석 제거)
+bio: "내 꿈은 평범. 두루두루 잘 산다는 뜻. 그렇게 살고싶다."
+profile_image: https://github.com/devtinatina.png
 
 # Social links
 social_links:

@@ -4,15 +4,6 @@ title: 소개
 permalink: /about/
 ---
 
-<div style="text-align: center; margin: 2rem 0;">
-  <h2 style="color: #667eea; margin-bottom: 1rem;">👋 안녕하세요</h2>
-  <p style="font-size: 1.1rem; color: #666; font-style: italic;">
-    "내 꿈은 평범. 두루두루 잘 산다는 뜻. 그렇게 살고싶다."
-  </p>
-</div>
-
----
-
 ## 📝 블로그를 시작하며
 
 항상 신년계획을 세우지 않고 20대를 지나보낸 것 같다.
@@ -78,6 +69,6 @@ permalink: /about/
 ---
 
 <div style="text-align: center; color: #999; font-size: 0.9rem; margin-top: 3rem;">
-  <p>2026년, 의미있는 한 해를 만들어가는 중입니다.</p>
+  <p>의미있는 한 해를 만들어가는 중입니다.</p>
 </div>
 

@@ -1,0 +1,36 @@
+<div class="sidebar">
+  <div class="sidebar-profile">
+    {% if site.profile_image %}
+      <img src="{{ site.profile_image | relative_url }}" alt="{{ site.author }}" class="profile-image">
+    {% else %}
+      <div class="profile-image-placeholder">
+        <span>{{ site.author | slice: 0 }}</span>
+      </div>
+    {% endif %}
+
+    <h2 class="profile-name">{{ site.author }}</h2>
+
+    {% if site.bio %}
+      <p class="profile-bio">{{ site.bio }}</p>
+    {% endif %}
+  </div>
+
+  <nav class="sidebar-nav">
+    <a href="{{ '/' | relative_url }}" class="sidebar-nav-item">홈</a>
+    <a href="{{ '/about/' | relative_url }}" class="sidebar-nav-item">소개</a>
+    <a href="{{ '/categories/daily/' | relative_url }}" class="sidebar-nav-item">일상</a>
+    <a href="{{ '/categories/graduate/' | relative_url }}" class="sidebar-nav-item">대학원</a>
+    <a href="{{ '/categories/travel/' | relative_url }}" class="sidebar-nav-item">여행</a>
+  </nav>
+
+  {% if site.social_links %}
+  <div class="sidebar-social">
+    {% if site.social_links.github %}
+      <a href="https://github.com/{{ site.social_links.github }}" target="_blank" class="social-link">GitHub</a>
+    {% endif %}
+    {% if site.social_links.email %}
+      <a href="mailto:{{ site.social_links.email }}" class="social-link">Email</a>
+    {% endif %}
+  </div>
+  {% endif %}
+</div>

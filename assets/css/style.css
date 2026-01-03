@@ -1,0 +1,262 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+/* Container Layout */
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  width: 280px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2rem 1.5rem;
+  position: fixed;
+  height: 100vh;
+  overflow-y: auto;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-profile {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  margin-bottom: 1rem;
+}
+
+.profile-image-placeholder {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  border: 4px solid rgba(255, 255, 255, 0.3);
+}
+
+.profile-image-placeholder span {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+
+.profile-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.profile-bio {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+
+/* Sidebar Navigation */
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.sidebar-nav-item {
+  color: white;
+  text-decoration: none;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  font-weight: 500;
+}
+
+.sidebar-nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Sidebar Social Links */
+.sidebar-social {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.social-link {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.social-link:hover {
+  opacity: 1;
+}
+
+/* Main Content */
+.content {
+  flex: 1;
+  margin-left: 280px;
+  padding: 3rem;
+  max-width: 900px;
+}
+
+/* Home Page */
+.home {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-list-heading {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #667eea;
+}
+
+.post-list {
+  list-style: none;
+}
+
+.post-item {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.post-item:last-child {
+  border-bottom: none;
+}
+
+.post-link {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.post-link:hover {
+  color: #667eea;
+}
+
+.post-meta {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+.post-category {
+  background: #f0f0f0;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+.post-excerpt {
+  color: #555;
+  margin-top: 0.5rem;
+}
+
+/* Post Page */
+.post, .page {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-header, .page-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #667eea;
+}
+
+.post-title, .page-title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.post-content, .page-content {
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.post-content h2, .page-content h2 {
+  font-size: 1.6rem;
+  margin: 2rem 0 1rem;
+  color: #667eea;
+}
+
+.post-content h3, .page-content h3 {
+  font-size: 1.3rem;
+  margin: 1.5rem 0 0.75rem;
+  color: #764ba2;
+}
+
+.post-content p, .page-content p {
+  margin-bottom: 1rem;
+}
+
+.post-content ul, .page-content ul,
+.post-content ol, .page-content ol {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.post-content li, .page-content li {
+  margin-bottom: 0.5rem;
+}
+
+/* Category Pages */
+.category-posts {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    position: relative;
+    height: auto;
+  }
+
+  .content {
+    margin-left: 0;
+    padding: 1.5rem;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+}

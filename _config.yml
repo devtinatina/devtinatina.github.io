@@ -1,20 +1,22 @@
 # Site settings
 title: 나의 일상 블로그
-description: A blog built with Jekyll and GitHub Pages
+description: 일상, 대학원, 여행 이야기를 기록하는 공간
 author: devtinatina
 email: leekh7624@korea.ac.kr
 
+# Profile settings
+bio: "2026년 30살이 되는 해, 의미있는 한 해를 만들어가는 중입니다."
+profile_image: # /assets/images/profile.jpg (이미지 추가 후 주석 제거)
+
+# Social links
+social_links:
+  github: devtinatina
+  email: leekh7624@korea.ac.kr
+
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
-# Header navigation
-header_pages:
-  - categories/daily.md
-  - categories/graduate.md
-  - categories/travel.md
 
 # GitHub Pages specific settings
 url: "https://devtinatina.github.io"

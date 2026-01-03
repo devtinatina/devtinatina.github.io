@@ -1,0 +1,25 @@
+# Site settings
+title: My Blog
+description: A blog built with Jekyll and GitHub Pages
+author: devtinatina
+email: your-email@example.com
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# GitHub Pages specific settings
+url: "https://devtinatina.github.io"
+baseurl: ""
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
